@@ -78,3 +78,19 @@
 .btn-5 {
   width: 150px;
 }
+
+
+.flex-demo {
+  display: flex;
+}
+.flex-demo > div {
+  background-color: #93cae4;
+}
+.flex-demo > div:nth-child(2) {
+  flex: 1;
+  background-color: aquamarine;
+}
+.flex-demo > div:nth-child(3) {
+  flex: 1;
+  background-color: aqua;
+}
